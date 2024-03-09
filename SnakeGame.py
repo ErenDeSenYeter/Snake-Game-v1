@@ -12,10 +12,6 @@ wn.bgcolor("black")
 wn.setup(width=600, height=400)
 wn.tracer(0)  # Turns off the screen updates
 
-img = tkinter.Image("photo", file="pythongames.py\ZZsnakeicon.png")
-turtle._Screen._root.iconphoto(True, img)
-
-
 # Snake head
 head = turtle.Turtle()
 head.speed(0)
